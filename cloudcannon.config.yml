@@ -16,7 +16,7 @@ collections_config:
     output: true
   data:
     output: false
-    path: data
+    path: Charlotte's Data
 
 # Control which collections are displayed in the CloudCannon site navigation,
 # and how those collections are grouped.
