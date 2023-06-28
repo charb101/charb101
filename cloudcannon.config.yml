@@ -5,7 +5,7 @@
 # Here you can define your collections, as well as any
 # CloudCannon configuration specific to those collections.
 collections_config:
-  pages:
+  Charlotte's pages:
     name: Charlotte
     output: true
     filter: strict
