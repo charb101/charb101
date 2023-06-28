@@ -35,7 +35,7 @@ source:
 # Each path is relative to your site's source folder.
 paths:
   data: charlottes data
-  collections: content
+  collections: charlotte
   includes: layouts
   layouts: layouts
   static: static
