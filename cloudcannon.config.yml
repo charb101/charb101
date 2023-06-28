@@ -1,49 +1,42 @@
-# Read the CloudCannon documentation for more information on how to use this file:
-# https://cloudcannon.com/documentation/articles/setting-global-configuration/?ssg=Hugo
-
-# Collections are related sets of content files, typically grouped by folder.
-# Here you can define your collections, as well as any
-# CloudCannon configuration specific to those collections.
+_editables: {}
+_inputs: {}
+_select_data: {}
+_structures: {}
+base_url: www.facebook.com
 collections_config:
   pages:
-    output: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
     filter: strict
+    icon: notes
+    output: true
     parse_branch_index: true
     path: content
+    schema_key: _schema
   blog:
-    path: content/blog
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    icon: notes
     output: true
+    path: content/blog
+    schema_key: _schema
   data:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    icon: notes
     output: false
     path: data
-
-# Control which collections are displayed in the CloudCannon site navigation,
-# and how those collections are grouped.
-collection_groups:
-
-# Set this to true to disable auto-detection of collections.
+    schema_key: _schema
 collections_config_override: false
-
-# Control which data sets are available to populate select and multiselect inputs.
-data_config:
-
-# Base path to your source files, relative to the root folder of your repository.
-source:
-
-# The locations of various types of files within your site.
-# Each path is relative to your site's source folder.
+data_config: {}
 paths:
-  data: data
-  collections: content
-  includes: layouts
-  layouts: layouts
-  static: static
   uploads: static/uploads
-
-# Lets you control the look and behaviour of the Source Editor.
-source_editor:
-
-# Timezone of your site in IANA format. This is used by date and datetime inputs
-# within the CloudCannon Data Editor.
+  static: static
+  collections: content
+  data: data
+  layouts: layouts
+  includes: layouts
 timezone: Etc/GMT-6
-
