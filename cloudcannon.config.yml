@@ -6,6 +6,7 @@
 # CloudCannon configuration specific to those collections.
 collections_config:
   pages:
+    name: Charlotte
     output: true
     filter: strict
     parse_branch_index: true
