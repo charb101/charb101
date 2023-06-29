@@ -6,7 +6,8 @@ content_blocks:
       title: Beautiful email campaignss
       description: >-
          With Sendit, you can quickly create beautiful rich emails that capture
-         a reader's attention, engage them, and convert them into customers.
+         a reader's attention, engage them, and convert them into
+         customers..........
       image_path: /images/hero/hero-image-2.png
       link:
          text: Try This Free
