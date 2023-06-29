@@ -14,7 +14,7 @@ content_blocks:
    -
       _bookshop_name: global/counter
       title: Scale your
-      title_suffix: Business
+      title_suffix: Businesss
       description: >-
          We have an extensive library of pre-written sales emails, proven
          marketing templates, and more to get you started on your next project.
